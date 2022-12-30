@@ -1,0 +1,21 @@
+{
+    "name": "fnsc/leetcode-playground",
+    "description": "Study repository to improve coding skills using LeetCode's program",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "LeetCodePlayground\\": "src/",
+            "LeetCodePlayground\\StudyProgram\\": "src/study-program-75"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriel Fonseca"
+        }
+    ]
+}
