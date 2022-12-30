@@ -1,6 +1,6 @@
 <?php
 
-namespace LeetCodePlayground\StudyProgram\LevelOne\DayOne\RunningSumOf1dArray;
+namespace LeetCodePlayground\StudyProgram75\LevelOne\DayOne\RunningSumOf1dArray\Php;
 
 class Solution
 {
@@ -8,7 +8,7 @@ class Solution
      * @param Integer[] $nums
      * @return Integer[]
      */
-    function runningSum($nums): array
+    function runningSum(array $nums): array
     {
         $result = [];
         $result[] = $nums[0];

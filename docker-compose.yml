@@ -3,14 +3,14 @@ version: "3.7"
 services:
     node:
         container_name: node
-        image: node:alpine3.17
+        image: node:latest
         working_dir: /var/www/html
         volumes:
             - ./:/var/www/html
 
     go:
         container_name: go
-        image: golang:1.20-rc-alpine
+        image: golang:latest
         working_dir: /var/www/html
         volumes:
             - ./:/var/www/html

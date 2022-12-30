@@ -9,8 +9,13 @@
     },
     "autoload": {
         "psr-4": {
-            "LeetCodePlayground\\": "src/",
-            "LeetCodePlayground\\StudyProgram\\": "src/study-program-75"
+            "LeetCodePlayground\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/php",
+            "LeetCodePlayground\\": "tests/php/src"
         }
     },
     "authors": [
